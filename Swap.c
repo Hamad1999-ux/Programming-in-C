@@ -11,7 +11,7 @@ int main(){
     printf("------------Before Swapping---------");
     printf("\nThe value of a : %d", a);
     printf("\nThe value of b : %d", b);
-    a = a + b;
+    a = a + b;//this line does work??? i think we need to create a temp or any variable for to swap the value??
     b = a - b;
     a = a - b;
     printf("\n------------After Swapping---------");
